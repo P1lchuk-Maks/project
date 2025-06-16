@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">LOGO</div>
+        <h1>Welcome to MyPlatform</h1>
+        <p>Sign in</p>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+
+            <label for="password">Password</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" required>
+                <button type="button" class="toggle-password">
+                    <svg id="eye-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 9.6413C10.6696 9.6413 9.58862 10.7233 9.58862 12.0533C9.58862 13.3823 10.6696 14.4633 11.9996 14.4633C13.3296 14.4633 14.4116 13.3823 14.4116 12.0533C14.4116 10.7233 13.3296 9.6413 11.9996 9.6413ZM11.9996 15.9633C9.84262 15.9633 8.08862 14.2093 8.08862 12.0533C8.08862 9.8963 9.84262 8.1413 11.9996 8.1413C14.1566 8.1413 15.9116 9.8963 15.9116 12.0533C15.9116 14.2093 14.1566 15.9633 11.9996 15.9633Z" fill="#AFB1B6"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.56987 12.0525C5.42987 16.1615 8.56287 18.6045 11.9999 18.6055C15.4369 18.6045 18.5699 16.1615 20.4299 12.0525C18.5699 7.9445 15.4369 5.5015 11.9999 5.5005C8.56387 5.5015 5.42987 7.9445 3.56987 12.0525ZM12.0019 20.1055H11.9979H11.9969C7.86087 20.1025 4.14687 17.2035 2.06087 12.3485C1.97987 12.1595 1.97987 11.9455 2.06087 11.7565C4.14687 6.9025 7.86187 4.0035 11.9969 4.0005C11.9989 3.9995 11.9989 3.9995 11.9999 4.0005C12.0019 3.9995 12.0019 3.9995 12.0029 4.0005C16.1389 4.0035 19.8529 6.9025 21.9389 11.7565C22.0209 11.9455 22.0209 12.1595 21.9389 12.3485C19.8539 17.2035 16.1389 20.1025 12.0029 20.1055H12.0019Z" fill="#AFB1B6"/>
+                    </svg>
+                </button>
+            </div>
+            <button type="submit">Sign in</button>
+        </form>
+        <div class="signin">
+            Don’t have an account yet? <a href="sign up.html">Sign up</a>
+        </div>
+    </div>
+    <script src="eye.js"></script>
+</body>
+</html>
